@@ -38,11 +38,6 @@ for i in range(4):
 train_dataset, val_dataset = dataset.train_test_split(test_size=0.2).values()
 print(len(train_dataset), len(val_dataset))
 
-import torch
-from torch.utils.data import Dataset
-from torchvision import transforms
-from PIL import Image
-
 class CustomDataset(Dataset):
     def __init__(self, dataset, transform=None):
         self.dataset = dataset
