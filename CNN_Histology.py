@@ -119,10 +119,6 @@ for param in resNet_model.layer4.parameters():
 for param in resNet_model.fc.parameters():
     param.requires_grad = True
 
-# Setting to training mode
-resNet_model.train()
-_ = resNet_model.train()
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 resNet_model.to(device)
@@ -277,10 +273,6 @@ for param in resNet_model.layer4.parameters():
     
 for param in resNet_model.fc.parameters():
     param.requires_grad = True
-
-# Setting to training mode
-resNet_model.train()
-_ = resNet_model.train()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
