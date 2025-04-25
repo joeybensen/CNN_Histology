@@ -19,7 +19,7 @@ image processing and augmentation, and dynamic learning rate scheduling.
 Clone the repository and run via terminal:
 
 ```bash
-python3 Hist_CNN.py
+python3 CNN_Histology.py
 ```
 
 ## Contributing
