@@ -8,9 +8,9 @@ image processing and augmentation, and dynamic learning rate scheduling.
 
 ## Features
 
--Importing and installing the BACH image huggingface dataset
--Reorganizing and converting images to tensors
--Importing pretrained models (ResNet 18 and ResNet 34)
+-Importing and installing the BACH image huggingface dataset<br>
+-Reorganizing and converting images to tensors<br>
+-Importing pretrained models (ResNet 18 and ResNet 34)<br>
 -provding metrics and example labelling of images
 
 
