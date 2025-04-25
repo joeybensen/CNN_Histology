@@ -21,6 +21,12 @@ Clone the repository and run via terminal:
 ```bash
 python3 CNN_Histology.py
 ```
+Conversely, you can clone and open within a juypter notebook:
+```bash
+pip install notebook
+
+jupyter notebook
+```
 
 ## Contributing
 
